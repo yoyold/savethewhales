@@ -118,4 +118,12 @@ nav {
   width: 50%;
 }
 
+/* Custom Whale Cursor */
+body {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M8,16 C8,12 10,10 14,10 C16,10 18,11 20,12 C22,13 24,14 26,14 C28,14 30,13 30,11 C30,9 28,8 26,8 C25,8 24,9 24,10 M8,16 C8,20 12,22 16,22 C20,22 26,20 26,16 M14,14 C14,15 13,16 12,16 C11,16 10,15 10,14 C10,13 11,12 12,12 C13,12 14,13 14,14 M16,18 C16,19 15,20 14,20 C13,20 12,19 12,18 M24,16 L28,18 M24,16 L28,14" fill="none" stroke="%2332a1ce" stroke-width="2" stroke-linecap="round"/></svg>') 12 12, auto;
+}
 
+/* cursor in different states */
+a, button, input[type="submit"], input[type="button"] {
+  cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"><path d="M8,16 C8,12 10,10 14,10 C16,10 18,11 20,12 C22,13 24,14 26,14 C28,14 30,13 30,11 C30,9 28,8 26,8 C25,8 24,9 24,10 M8,16 C8,20 12,22 16,22 C20,22 26,20 26,16 M14,14 C14,15 13,16 12,16 C11,16 10,15 10,14 C10,13 11,12 12,12 C13,12 14,13 14,14 M16,18 C16,19 15,20 14,20 C13,20 12,19 12,18 M24,16 L28,18 M24,16 L28,14" fill="none" stroke="%2304AA6D" stroke-width="2" stroke-linecap="round"/></svg>') 12 12, pointer;
+}
