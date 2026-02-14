@@ -1,32 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Learn about our mission to save whales and protect ocean ecosystems">
   <link rel="stylesheet" href="style.css">
   <title>About - Save the Whales</title>
 </head>
 
 <body>
-<header>
-  <div class="topnav">
-    <a href="#home">Home</a>
-    <a class="active"  href="about.html">About</a>
+  <nav class="topnav">
+    <a href="index.html">Home</a>
+    <a class="active" href="about.html">About</a>
     <a href="impressum.html">Impressum</a>
-  </div>
+  </nav>
 
-  <h1>About Save the Whales</h1>
-  <p>Learn more about our mission and the importance of saving whales.</p>
-</header>
+  <header class="hero">
+    <div class="wave-decoration"></div>
+    <h1>About Save the Whales</h1>
+    <p class="tagline">Learn more about our mission and the importance of saving whales.</p>
+  </header>
 
-<section class="main-content">
-  <img class="whaleimg center" src="whale.jpg" alt="whale" width="400" height="400">
-</section>
+  <main class="main-content">
+    <section class="info-section">
+      <h2>Our Mission</h2>
+      <p>Save the Whales is dedicated to the conservation and protection of whale populations worldwide. We work to raise awareness about the threats facing these magnificent creatures and promote sustainable practices that protect marine ecosystems.</p>
+    </section>
 
-<footer>
-  <p>&copy; 2023 by Lukas Dony. Save the Whales. All rights reserved.</p>
-</footer>
+    <section class="info-section image-section">
+      <div class="whale-illustration">
+        <svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg" class="whale-svg">
+          <defs>
+            <linearGradient id="whaleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+              <stop offset="0%" style="stop-color:#2c5aa0;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#1a3d6b;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+          <!-- Whale body -->
+          <ellipse cx="100" cy="60" rx="70" ry="30" fill="url(#whaleGradient)"/>
+          <!-- Whale head -->
+          <ellipse cx="40" cy="58" rx="25" ry="20" fill="url(#whaleGradient)"/>
+          <!-- Whale tail -->
+          <path d="M 160 60 Q 180 50, 190 45 Q 185 60, 180 65 Q 185 60, 190 75 Q 180 70, 160 60" fill="url(#whaleGradient)"/>
+          <!-- Whale fin -->
+          <path d="M 100 85 Q 95 100, 90 105 Q 95 95, 100 90" fill="#1a3d6b"/>
+          <!-- Whale eye -->
+          <circle cx="50" cy="55" r="3" fill="white"/>
+          <circle cx="51" cy="55" r="1.5" fill="#1a3d6b"/>
+          <!-- Water spout -->
+          <path d="M 45 35 Q 43 25, 42 20 Q 44 28, 46 32" stroke="#6eb5ff" stroke-width="2" fill="none" opacity="0.7"/>
+          <path d="M 48 32 Q 47 23, 47 18 Q 48 26, 49 30" stroke="#6eb5ff" stroke-width="2" fill="none" opacity="0.7"/>
+        </svg>
+      </div>
+    </section>
+
+    <section class="info-section">
+      <h2>Why Whales Matter</h2>
+      <p>Whales are keystone species in marine ecosystems. They help maintain the health of our oceans by:</p>
+      <ul class="styled-list">
+        <li>Supporting the marine food web through nutrient cycling</li>
+        <li>Promoting phytoplankton growth, which produces oxygen and captures carbon</li>
+        <li>Maintaining biodiversity in ocean environments</li>
+        <li>Serving as indicators of ocean health</li>
+      </ul>
+    </section>
+
+    <section class="info-section">
+      <h2>The Threats They Face</h2>
+      <p>Despite international protection efforts, whales continue to face numerous threats including ship strikes, entanglement in fishing gear, ocean noise pollution, climate change, and habitat degradation. Through education, advocacy, and conservation action, we can help protect these incredible animals for future generations.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wave-decoration-footer"></div>
+    <p>&copy; 2023 by Lukas Dony. Save the Whales. All rights reserved.</p>
+  </footer>
 </body>
-
 </html>
